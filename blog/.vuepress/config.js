@@ -26,7 +26,7 @@ module.exports = {
       copyright: [
         {
           text: 'Copyright © 2020-present ProKria',
-          link: '',
+          link: 'https://prokria.com',
         },
       ],
     },
