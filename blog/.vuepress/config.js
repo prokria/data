@@ -1,3 +1,6 @@
+const navConf = require('./navConf.js');
+const directoriesConf = require('./directoriesConf.js');
+
 module.exports = {
   title: 'ডাটা প্রক্রিয়া',
   description: 'উপাত্ত হতে তথ্যের সন্ধান',
@@ -6,16 +9,8 @@ module.exports = {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
-    nav: [
-      {
-        text: 'Blog',
-        link: '/',
-      },
-      {
-        text: 'Tags',
-        link: '/tag/',
-      },
-    ],
+    nav: navConf,
+    directories: directoriesConf,
     footer: {
       contact: [
         {
